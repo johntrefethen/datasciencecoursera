@@ -1,6 +1,7 @@
 run_analysis.R readme file
 ===================
-The run_analysis code uses data files from the UCI HAR Dataset, and performs the following transformations:
+The run_analysis code uses data files from the UCI HAR Dataset (https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones),
+and performs the following transformations:
 
 Merges the training and the test sets to create one data set.
 
