@@ -2,6 +2,7 @@
 # Assumes the "getdata-projectfiles-UCI HAR Dataset.zip" has been unzipped
 # and directory structure has been maintained. Data files will be read
 # using relative path from the getwd() directory.
+require(dplyr)
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE, sep = "")
 x_test <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "")
 
