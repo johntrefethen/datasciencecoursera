@@ -1,8 +1,11 @@
 # Read in test and train data files
+# Assumes the "getdata-projectfiles-UCI HAR Dataset.zip" has been unzipped
+# and directory structure has been maintained. Data files will be read
+# using relative path from the getwd() directory.
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE, sep = "")
 x_test <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "")
 
-# Read in column names from features.txt. 
+# Read in column names from features.txt
 # Convert this file into a character
 # vector in order to set test and train column names
 features <- read.table("UCI HAR Dataset/features.txt", sep = "")
@@ -59,4 +62,5 @@ x_meanstd <- cbind(x_nodup[,1:2], x_meanstd)
 # Apply average to the variables by Test Performed and Subject
 x_final <- aggregate(x_meanstd[,3:60], x_meanstd[,1:2], FUN = mean)
 
-View(x_final)
+# Write out the file for later use
+write.table(x_final, "summary_by_test_and_subject.txt", row.name=FALSE)
