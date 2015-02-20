@@ -1,3 +1,9 @@
+# run_analysis.R
+# John Trefethen 
+# 02/17/2015
+# This program reads several data files and combines them into a single
+# summarized data set for later use.
+
 # Read in test and train data files
 # Assumes the "getdata-projectfiles-UCI HAR Dataset.zip" has been unzipped
 # and directory structure has been maintained. Data files will be read
