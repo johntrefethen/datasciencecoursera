@@ -23,7 +23,6 @@ colnames(x_test) <- features_vect
 # Line up the subjects with the test and train data sets
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", sep="")
 x_train <- cbind(subject_train, x_train)
-
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", sep="")
 x_test <- cbind(subject_test, x_test)
 
@@ -54,6 +53,7 @@ x_total$TestPerformed[x_total$TestPerformed == 6] <- "LAYING"
 
 # Determine duplicated column names
 x_dup <- x_total[,duplicated(colnames(x_total)) == TRUE]
+
 # Determine if any have mean and std in them
 head(select(x_dup, contains("mean")))
 head(select(x_dup, contains("std")))
