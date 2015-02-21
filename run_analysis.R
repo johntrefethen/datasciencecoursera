@@ -67,7 +67,7 @@ x_meanstd <- cbind(x_meanstd, select(x_nodup, contains("std")))
 x_meanstd <- cbind(x_nodup[,1:2], x_meanstd)
 
 # Apply average to the variables by Test Performed and Subject
-x_final <- aggregate(x_meanstd[,3:88], x_meanstd[,1:2], FUN = mean)
+x_final <- aggregate(x_meanstd[,c(3:48,56:88)], x_meanstd[,1:2], FUN = mean)
 
 # Write out the file for later use
 write.table(x_final, "summary_by_test_and_subject.txt", row.name=FALSE)
