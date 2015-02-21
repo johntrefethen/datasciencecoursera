@@ -34,100 +34,100 @@ The following variables have been summarized by mean and grouped by Test Perform
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
 Subject (Labeled 1-30 based on the volunteer):
 
- 1   TestPerformed 
- 2   Subject 
- 3   tBodyAcc-mean()-X 
- 4   tBodyAcc-mean()-Y 
- 5   tBodyAcc-mean()-Z 
- 6   tGravityAcc-mean()-X 
- 7   tGravityAcc-mean()-Y 
- 8   tGravityAcc-mean()-Z 
- 9   tBodyAccJerk-mean()-X 
- 10   tBodyAccJerk-mean()-Y 
- 11   tBodyAccJerk-mean()-Z 
- 12   tBodyGyro-mean()-X 
- 13   tBodyGyro-mean()-Y 
- 14   tBodyGyro-mean()-Z 
- 15   tBodyGyroJerk-mean()-X 
- 16   tBodyGyroJerk-mean()-Y 
- 17   tBodyGyroJerk-mean()-Z 
- 18   tBodyAccMag-mean() 
- 19   tGravityAccMag-mean() 
- 20   tBodyAccJerkMag-mean() 
- 21   tBodyGyroMag-mean() 
- 22   tBodyGyroJerkMag-mean() 
- 23   fBodyAcc-mean()-X 
- 24   fBodyAcc-mean()-Y 
- 25   fBodyAcc-mean()-Z 
- 26   fBodyAcc-meanFreq()-X 
- 27   fBodyAcc-meanFreq()-Y 
- 28   fBodyAcc-meanFreq()-Z 
- 29   fBodyAccJerk-mean()-X 
- 30   fBodyAccJerk-mean()-Y 
- 31   fBodyAccJerk-mean()-Z 
- 32   fBodyAccJerk-meanFreq()-X 
- 33   fBodyAccJerk-meanFreq()-Y 
- 34   fBodyAccJerk-meanFreq()-Z 
- 35   fBodyGyro-mean()-X 
- 36   fBodyGyro-mean()-Y 
- 37   fBodyGyro-mean()-Z 
- 38   fBodyGyro-meanFreq()-X 
- 39   fBodyGyro-meanFreq()-Y 
- 40   fBodyGyro-meanFreq()-Z 
- 41   fBodyAccMag-mean() 
- 42   fBodyAccMag-meanFreq() 
- 43   fBodyBodyAccJerkMag-mean() 
- 44   fBodyBodyAccJerkMag-meanFreq() 
- 45   fBodyBodyGyroMag-mean() 
- 46   fBodyBodyGyroMag-meanFreq() 
- 47   fBodyBodyGyroJerkMag-mean() 
- 48   fBodyBodyGyroJerkMag-meanFreq() 
- 49   angle(tBodyAccMean,gravity) 
- 50   angle(tBodyAccJerkMean),gravityMean) 
- 51   angle(tBodyGyroMean,gravityMean) 
- 52   angle(tBodyGyroJerkMean,gravityMean) 
- 53   angle(X,gravityMean) 
- 54   angle(Y,gravityMean) 
- 55   angle(Z,gravityMean) 
- 56   tBodyAcc-std()-X 
- 57   tBodyAcc-std()-Y 
- 58   tBodyAcc-std()-Z 
- 59   tGravityAcc-std()-X 
- 60   tGravityAcc-std()-Y 
- 61   tGravityAcc-std()-Z 
- 62   tBodyAccJerk-std()-X 
- 63   tBodyAccJerk-std()-Y 
- 64   tBodyAccJerk-std()-Z 
- 65   tBodyGyro-std()-X 
- 66   tBodyGyro-std()-Y 
- 67   tBodyGyro-std()-Z 
- 68   tBodyGyroJerk-std()-X 
- 69   tBodyGyroJerk-std()-Y 
- 70   tBodyGyroJerk-std()-Z 
- 71   tBodyAccMag-std() 
- 72   tGravityAccMag-std() 
- 73   tBodyAccJerkMag-std() 
- 74   tBodyGyroMag-std() 
- 75   tBodyGyroJerkMag-std() 
- 76   fBodyAcc-std()-X 
- 77   fBodyAcc-std()-Y 
- 78   fBodyAcc-std()-Z 
- 79   fBodyAccJerk-std()-X 
- 80   fBodyAccJerk-std()-Y 
- 81   fBodyAccJerk-std()-Z 
- 82   fBodyGyro-std()-X 
- 83   fBodyGyro-std()-Y 
- 84   fBodyGyro-std()-Z 
- 85   fBodyAccMag-std() 
- 86   fBodyBodyAccJerkMag-std() 
- 87   fBodyBodyGyroMag-std() 
- 88   fBodyBodyGyroJerkMag-std() 
+|Column Number| Column Name| Data Type |
+|----------|:-------:|:----:|
+|1 |TestPerformed|   |
+|2 |Subject|    | |
+|3 |tBodyAcc-mean()-X| |
+|4 |tBodyAcc-mean()-Y||
+|5 |tBodyAcc-mean()-Z||
+|6 |tGravityAcc-mean()-X||
+|7 |tGravityAcc-mean()-Y||
+|8 |tGravityAcc-mean()-Z||
+|9 |tBodyAccJerk-mean()-X||
+|10 |tBodyAccJerk-mean()-Y||
+|11 |tBodyAccJerk-mean()-Z||
+|12 |tBodyGyro-mean()-X||
+|13 |tBodyGyro-mean()-Y||
+|14 |tBodyGyro-mean()-Z||
+|15 |tBodyGyroJerk-mean()-X||
+|16 |tBodyGyroJerk-mean()-Y||
+|17 |tBodyGyroJerk-mean()-Z||
+|18 |tBodyAccMag-mean()||
+|19 |tGravityAccMag-mean()||
+|20 |tBodyAccJerkMag-mean()||
+|21 |tBodyGyroMag-mean()||
+|22 |tBodyGyroJerkMag-mean()||
+|23 |fBodyAcc-mean()-X||
+|24 |fBodyAcc-mean()-Y||
+|25 |fBodyAcc-mean()-Z||
+|26 |fBodyAcc-meanFreq()-X||
+|27 |fBodyAcc-meanFreq()-Y||
+|28 |fBodyAcc-meanFreq()-Z||
+|29 |fBodyAccJerk-mean()-X||
+|30 |fBodyAccJerk-mean()-Y||
+|31 |fBodyAccJerk-mean()-Z||
+|32 |fBodyAccJerk-meanFreq()-X||
+|33 |fBodyAccJerk-meanFreq()-Y||
+|34 |fBodyAccJerk-meanFreq()-Z||
+|35 |fBodyGyro-mean()-X||
+|36 |fBodyGyro-mean()-Y||
+|37 |fBodyGyro-mean()-Z||
+|38 |fBodyGyro-meanFreq()-X||
+|39 |fBodyGyro-meanFreq()-Y||
+|40 |fBodyGyro-meanFreq()-Z||
+|41 |fBodyAccMag-mean()||
+|42 |fBodyAccMag-meanFreq()||
+|43 |fBodyBodyAccJerkMag-mean()||
+|44 |fBodyBodyAccJerkMag-meanFreq()||
+|45 |fBodyBodyGyroMag-mean()||
+|46 |fBodyBodyGyroMag-meanFreq()||
+|47 |fBodyBodyGyroJerkMag-mean()||
+|48 |fBodyBodyGyroJerkMag-meanFreq()||
+|49 |angle(tBodyAccMean,gravity)||
+|50 |angle(tBodyAccJerkMean),gravityMean)||
+|51 |angle(tBodyGyroMean,gravityMean)||
+|52 |angle(tBodyGyroJerkMean,gravityMean)||
+|53 |angle(X,gravityMean)||
+|54 |angle(Y,gravityMean)||
+|55 |angle(Z,gravityMean)||
+|56 |tBodyAcc-std()-X||
+|57 |tBodyAcc-std()-Y||
+|58 |tBodyAcc-std()-Z||
+|59 |tGravityAcc-std()-X||
+|60 |tGravityAcc-std()-Y||
+|61 |tGravityAcc-std()-Z||
+|62 |tBodyAccJerk-std()-X||
+|63 |tBodyAccJerk-std()-Y||
+|64 |tBodyAccJerk-std()-Z||
+|65 |tBodyGyro-std()-X||
+|66 |tBodyGyro-std()-Y||
+|67 |tBodyGyro-std()-Z||
+|68 |tBodyGyroJerk-std()-X||
+|69 |tBodyGyroJerk-std()-Y||
+|70 |tBodyGyroJerk-std()-Z||
+|71 |tBodyAccMag-std()||
+|72 |tGravityAccMag-std()||
+|73 |tBodyAccJerkMag-std()||
+|74 |tBodyGyroMag-std()||
+|75 |tBodyGyroJerkMag-std()||
+|76 |fBodyAcc-std()-X||
+|77 |fBodyAcc-std()-Y||
+|78 |fBodyAcc-std()-Z||
+|79 |fBodyAccJerk-std()-X||
+|80 |fBodyAccJerk-std()-Y||
+|81 |fBodyAccJerk-std()-Z||
+|82 |fBodyGyro-std()-X||
+|83 |fBodyGyro-std()-Y||
+|84 |fBodyGyro-std()-Z||
+|85 |fBodyAccMag-std()||
+|86 |fBodyBodyAccJerkMag-std()||
+|87 |fBodyBodyGyroMag-std()||
+|88 |fBodyBodyGyroJerkMag-std()||
 
 =========================
 
-See below for detailed information regarding the raw data.
-
-Raw data information ==================
+See below for detailed information regarding the raw data, taken from the UCI web site above.
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying
 noise filters and then sampled in fixed-width sliding windows of 2.56 sec and
@@ -161,10 +161,23 @@ signals).
 These signals were used to estimate variables of the feature vector for each
 pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ tGravityAcc-XYZ tBodyAccJerk-XYZ tBodyGyro-XYZ tBodyGyroJerk-XYZ
-tBodyAccMag tGravityAccMag tBodyAccJerkMag tBodyGyroMag tBodyGyroJerkMag
-fBodyAcc-XYZ fBodyAccJerk-XYZ fBodyGyro-XYZ fBodyAccMag fBodyAccJerkMag
-fBodyGyroMag fBodyGyroJerkMag
+* tBodyAcc-XYZ 
+* tGravityAcc-XYZ 
+* tBodyAccJerk-XYZ 
+* tBodyGyro-XYZ 
+* tBodyGyroJerk-XYZ
+* tBodyAccMag 
+* tGravityAccMag 
+* tBodyAccJerkMag 
+* tBodyGyroMag 
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ 
+* fBodyAccJerk-XYZ 
+* fBodyGyro-XYZ 
+* fBodyAccMag 
+* fBodyAccJerkMag
+* fBodyGyroMag 
+* fBodyGyroJerkMag
 
 
 
