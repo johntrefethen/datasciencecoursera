@@ -25,7 +25,7 @@ In addition to TestPerformed and Subject, the remaining variables (columns 3-81)
 * 'Body' or 'Gravity' - Indicating body or gravity acceleration.
 * 'Acc' or 'Gyro' - Indicating data collected from the accelerometer or the gyroscope.
 * 'Jerk' - Derivation in time of the body linear acceleration and angular velocity. 
-* 'X', 'Y', or 'Z' - Indicating three-demensional direction signals.
+* 'X', 'Y', or 'Z' - Indicating directional signals in three dimensions.
 * 'mean()' or 'std() - Indicating a mean or standard deviation value.
 * 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 * 'Freq' - Weighted average of the frequency components to obtain a mean frequency.
