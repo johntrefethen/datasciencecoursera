@@ -18,21 +18,21 @@ on these files.
 
 Below is the code book for the summary data file.
 
-Summary Data Information
-==================
-The summary set of variables that were estimated from these signals are:
-
-mean(): Mean value 
-std(): Standard deviation
+##### Summary Data Set Information
+This tidy data set contains summary set of mean and standard deviation values. The mean and standard deviation for each 
+varaible was grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
+Subject ID (labeled 1-30 based on the volunteer):
 
 Additional vectors obtained by averaging the signals in a signal window sample.
-These are used on the angle() variable:
+These are used on the angle() variables:
 
-gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
+* gravityMean 
+* tBodyAccMean 
+* tBodyAccJerkMean 
+* tBodyGyroMean 
+* tBodyGyroJerkMean
 
-The following variables have been summarized by mean and grouped by Test Performed 
-(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
-Subject (Labeled 1-30 based on the volunteer):
+Column details are provided in the table below. 
 
 |Column Number| Column Name| Data Type |
 |----------|:-------:|:----:|
