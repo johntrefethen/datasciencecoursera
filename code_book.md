@@ -50,7 +50,7 @@ Column details are provided in the table below.
 |12 |tBodyGyro-mean()-X|numeric||
 |13 |tBodyGyro-mean()-Y|numeric||
 |14 |tBodyGyro-mean()-Z|numeric||
-|15 |tBodyGyroJerk-mean()-X|v||
+|15 |tBodyGyroJerk-mean()-X|numeric||
 |16 |tBodyGyroJerk-mean()-Y|numeric||
 |17 |tBodyGyroJerk-mean()-Z|numeric||
 |18 |tBodyAccMag-mean()|numeric||
