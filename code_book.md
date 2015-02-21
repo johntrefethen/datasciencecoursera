@@ -28,6 +28,7 @@ In addition to TestPerformed and Subject, the remaining variables (columns 3-81)
 * 'X', 'Y', or 'Z' - Indicating three-demensional direction signals.
 * 'mean()' or 'std() - Indicating a mean or standard deviation value.
 * 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+* 'Freq' - Weighted average of the frequency components to obtain a mean frequency.
 
 #### Summary Data Set - Column details 
 
