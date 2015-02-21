@@ -1,6 +1,9 @@
-Code book for "summary mean and standard deviation" data set =================
+# Code book 
 
-General Information:
+### Code book for the "Summary Mean and Standard Deviation" data set 
+
+##### Source data for this data set is from the UC-Irvine [Human Activity Recognition Using Smartphones Data Set] (https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphone). Below is a short description from UCI web site describing the experiment from which the data was gathered.
+---
 
 The experiments have been carried out with a group of 30 volunteers within an
 age bracket of 19-48 years. Each person performed six activities (WALKING,
