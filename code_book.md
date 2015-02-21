@@ -34,8 +34,8 @@ These are used on the angle() variables:
 
 Column details are provided in the table below. 
 
-|Column Number| Column Name| Data Type |
-|----------|:-------:|:----:|
+|Column| Column Name| Data Type |
+|------|:-------:|:----:|
 |1 |TestPerformed|   |
 |2 |Subject|    | |
 |3 |tBodyAcc-mean()-X| |
