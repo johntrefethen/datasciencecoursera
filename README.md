@@ -13,4 +13,4 @@ Appropriately labels the data set with descriptive variable names.
 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-###For detailed information on the final data set, see the Codebook.md file in this repo.
+###For detailed information on the final data set, see the code_book.md file in this repo.
