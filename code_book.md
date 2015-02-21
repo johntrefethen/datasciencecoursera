@@ -16,23 +16,20 @@ two sets, where 70% of the volunteers was selected for generating the training
 data and 30% the test data. See "Raw Data Set Information" section below for details 
 on these files.
 
-Below is the code book for the summary data file.
+Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
+Subject ID (labeled 1-30 based on the volunteer).
 
-##### Summary Data Set Information
-This tidy data set contains summary set of mean and standard deviation values. The mean and standard deviation for each 
-varaible was grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
-Subject ID (labeled 1-30 based on the volunteer):
+In addition to TestPerformed and Subject, the remaining variables (columns 3-81) use the following naming convention:
 
-Additional vectors obtained by averaging the signals in a signal window sample.
-These are used on the angle() variables:
+* 't' or 'f' - Indicating time or frequency domain.
+* 'Body' or 'Gravity' - Indicating body or gravity acceleration.
+* 'Acc' or 'Gyro' - Indicating data collected from the accelerometer or the gyroscope.
+* 'Jerk' - Derivation in time of the body linear acceleration and angular velocity. 
+* 'X', 'Y', or 'Z' - Indicating three-demensional direction signals.
+* 'mean()' or 'std() - Indicating a mean or standard deviation value.
+* 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 
-* gravityMean 
-* tBodyAccMean 
-* tBodyAccJerkMean 
-* tBodyGyroMean 
-* tBodyGyroJerkMean
-
-Column details are provided in the table below. 
+#### Summary Data Set - Column details 
 
 |Column|Column Name|Data Type|Description|
 |---|:----|:---|:-----|
