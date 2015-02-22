@@ -21,7 +21,7 @@ on these files.
 #### General Information
 Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed and Subject ID.
 
-#### Variable Naming Conventions and Description
+#### Variable Naming Conventions, Description, and Units
 
 Columns 1 and 2 are used to group the remaining variables.
 
@@ -39,7 +39,7 @@ The naming convention for columns 3-81 is as follows:
 * 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 * 'Freq' - Weighted average of the frequency components to obtain a mean frequency.
 
-##### UNITS for each variable are determned by the 'Acc' or 'Gyro' component of the variable name.
+UNITS for each variable are determned by the 'Acc' or 'Gyro' component of the variable name.
 * 'Acc' - Standard Gravity Units 'g'
 * 'Gyro' - Radians/Second
 
