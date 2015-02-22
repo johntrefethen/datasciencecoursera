@@ -19,7 +19,7 @@ on these files.
 Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
 Subject ID (labeled 1-30 based on the volunteer).
 
-In addition to TestPerformed and Subject, the remaining variables (columns 3-81) use the following naming convention:
+#### Variable Naming Conventions and Description
 
 * 't' or 'f' - Indicating time or frequency domain.
 * 'Body' or 'Gravity' - Indicating body or gravity acceleration.
@@ -29,6 +29,10 @@ In addition to TestPerformed and Subject, the remaining variables (columns 3-81)
 * 'mean()' or 'std() - Indicating a mean or standard deviation value.
 * 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 * 'Freq' - Weighted average of the frequency components to obtain a mean frequency.
+
+##### UNITS for each variable are determned by the 'Acc' or 'Gyro' component of the variable name.
+* 'Acc' - Standard Gravity Units 'g'
+* 'Gyro' - Radians/Second
 
 #### Summary Data Set - Column details 
 
