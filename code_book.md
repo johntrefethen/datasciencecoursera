@@ -16,6 +16,8 @@ two sets, where 70% of the volunteers was selected for generating the training
 data and 30% the test data. See "Raw Data Set Information" section below for details 
 on these files.
 
+---
+
 Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
 Subject ID (labeled 1-30 based on the volunteer).
 
