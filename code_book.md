@@ -19,10 +19,16 @@ on these files.
 ---
 
 #### General Information
-Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and
-Subject ID (labeled 1-30 based on the volunteer).
+Two primary data sets were generated from the experiment, each containing 561 attributes of raw data. From those two sets, the run_analysis.R program produces a summary data set. This summary data set contains the mean and standard deviation attributes grouped by Test Performed and Subject ID.
 
 #### Variable Naming Conventions and Description
+
+Variables 3-81 are grouped by the first two columns.
+
+* Test Performed - The type of test performed by the subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+* Subject - An ID value from 1-30 indicating which subject performed the test.
+
+The naming convention for columns 3-81 is as follow:
 
 * 't' or 'f' - Indicating time or frequency domain.
 * 'Body' or 'Gravity' - Indicating body or gravity acceleration.
