@@ -43,7 +43,7 @@ UNITS for variables 3-81 are determined by the 'Acc' or 'Gyro' component of the 
 * 'Acc' - Standard Gravity Units 'g'
 * 'Gyro' - Radians/Second
 
-#### Summary Data Set - Column details 
+#### Summary Data Set - Columns
 
 |Column|Column Name|Data Type|
 |---|:----|:---|:-----|
