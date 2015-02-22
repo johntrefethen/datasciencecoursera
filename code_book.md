@@ -28,7 +28,7 @@ Columns 1 and 2 are used to group the remaining variables.
 * Test Performed - The type of test performed by the subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * Subject - An ID value from 1-30 indicating which subject performed the test.
 
-The naming convention for columns 3-81 is as follows:
+The naming convention for variables 3-81 is as follows:
 
 * 't' or 'f' - Indicating time or frequency domain.
 * 'Body' or 'Gravity' - Indicating body or gravity acceleration.
@@ -39,7 +39,7 @@ The naming convention for columns 3-81 is as follows:
 * 'mag' - Magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 * 'Freq' - Weighted average of the frequency components to obtain a mean frequency.
 
-UNITS for each variable are determned by the 'Acc' or 'Gyro' component of the variable name.
+UNITS for variables 3-81 are determined by the 'Acc' or 'Gyro' component of the variable name.
 * 'Acc' - Standard Gravity Units 'g'
 * 'Gyro' - Radians/Second
 
