@@ -11,7 +11,8 @@ and performs the following transformations:
 
 The run_analysis.R code can be copied to the user's RStudio working directory, and assumes that the [UCI HAR dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) has been unzipped 
 into the working directory, maintaining the directory structure in the .zip file. The run_analysis.R file writes out 
-a text file in the working directory named summary_by_test_and_subject.txt which contains the final data set.
+a text file in the working directory named summary_by_test_and_subject.txt which contains the final data set. Detailed 
+comments are contained within the run_analysis.R file.
 
 #####For detailed information on the final data set, see the [code_book.md] (https://github.com/johntrefethen/datasciencecoursera/blob/master/code_book.md) file.
 
