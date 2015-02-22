@@ -23,12 +23,12 @@ Two primary data sets were generated from the experiment, each containing 561 at
 
 #### Variable Naming Conventions and Description
 
-Variables 3-81 are grouped by the first two columns.
+Columns 1 and 2 are used to group the remaining variables.
 
 * Test Performed - The type of test performed by the subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 * Subject - An ID value from 1-30 indicating which subject performed the test.
 
-The naming convention for columns 3-81 is as follow:
+The naming convention for columns 3-81 is as follows:
 
 * 't' or 'f' - Indicating time or frequency domain.
 * 'Body' or 'Gravity' - Indicating body or gravity acceleration.
