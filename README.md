@@ -15,4 +15,4 @@ a text file in the working directory named summary_by_test_and_subject.txt which
 
 #####For detailed information on the final data set, see the [code_book.md] (https://github.com/johntrefethen/datasciencecoursera/blob/master/code_book.md) file.
 
-(1) See ["Tidy Data", Section 2.3](http://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham for details on the definition of "tidy" data.
+<sup>(1)</sup> See ["Tidy Data", Section 2.3](http://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham for details on the definition of "tidy" data.
